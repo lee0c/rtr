@@ -16,6 +16,10 @@ details summary {
   cursor: pointer;
 }
 
+details ::marker {
+  content: "+ ";
+}
+
 #expand-all summary {
   background-color: var(--color-accent);
 }

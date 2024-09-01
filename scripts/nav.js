@@ -62,8 +62,8 @@ const ALIGN = "alignment";
 const LEFT = "left";
 const RIGHT = "right";
 
-const LEFT_ICON = '<i class="fa-regular fa-hand-point-left"></i>';
-const RIGHT_ICON = '<i class="fa-regular fa-hand-point-right"></i>';
+const LEFT_ICON = '<i class="fa-regular fa-hand-point-left" aria-hidden="true"></i>';
+const RIGHT_ICON = '<i class="fa-regular fa-hand-point-right" aria-hidden="true"></i>';
 
 /* Menu alignment - right or left handed */
 let align = localStorage.getItem(ALIGN);
@@ -99,10 +99,12 @@ function changeAlign(align) {
 
 changeAlign(align);
 
-function toggleAlign() {
+function toggleAlign(event) {
   if (align === LEFT) align = RIGHT;
   else if (align === RIGHT) align = LEFT;
   changeAlign(align);
+  
+  if (event.detail === 0) alignToggle.focus();
 }
 
 alignToggle.addEventListener("click", toggleAlign);

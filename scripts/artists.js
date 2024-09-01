@@ -20,7 +20,7 @@ const FB = "fb";
       insta: "",
       fb: ""
     }
-  }
+  },
 */
 
 let artists = [
@@ -36,6 +36,12 @@ let artists = [
       website: "https://linktr.ee/alien_sunset",
       fedi: "https://dice.camp/@Alien_Sunset",
     },
+  },
+  {
+    name: "Acin Fals",
+    blurb: "<p>Pixel art with theme of 'fly together'.</p>",
+    imgSrc: "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Acin-Fals.png?v=1725029682695",
+    imgAlt: "A pixel art self portrait with light skin, dark hair, and a Pride-themed medical mask for a better future."
   },
   {
     name: "Adhémara",
@@ -62,6 +68,19 @@ let artists = [
     },
   },
   {
+    name: "Amata",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Amata.jpg?v=1724969971828",
+    imgAlt:
+      "Selfie style photo taken at a cave entrance with nb white person with blue eyes. Hair does not show. Wearing a purple shirt and teal caving helmet with a mounted professional headlamp which is turned on. There is rope rigged in the background which disappears into the dark hole (the cave).",
+    blurb:
+      "<p>I am a cave scientist & photographer. While I am willing to offer any images you see on my website, of focus will be a square image with a shadowed figure outlined holding a progress pride flag in a cave near a waterfall.</p>",
+    socials: {
+      website: "www.sunguramy.com",
+      fedi: "https://flipping.rocks/@sunguramy",
+    },
+  },
+  {
     name: "Anaïs Faë",
     imgSrc:
       "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Anais-Fae.jpg?v=1724078528616",
@@ -73,6 +92,17 @@ let artists = [
       fedi: "https://mastodon.art/@anaisfae",
       bsky: "https://bsky.app/profile/anaisfae.art",
       insta: "https://www.instagram.com/anaisfae.art/",
+    },
+  },
+  {
+    name: "Arina Grace",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Arina-Grace.jpg?v=1724970206798",
+    imgAlt: "white trans woman wearing a black dress sitting on a blue couch",
+    blurb:
+      "<p>The fun part about photography is you aren't really sure what you're going to be able to offer until you get it.</p>",
+    socials: {
+      fedi: "https://mastodon.art/@SynthGal",
     },
   },
   {
@@ -152,6 +182,22 @@ let artists = [
     },
   },
   {
+    name: "Intransitive Lie",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Intransitive-Lie.jpg?v=1724963211071",
+    imgAlt:
+      "A cartoon drawing of an elephant wearing a brown suit jacket holding up a sign which reads, 'Rise up.'",
+    blurb:
+      "<p>An abstract digital work derived from an image or images which relate to the theme of the trans experience and escape from tyranny, though I'll be honest, my art tends to be fairly open to interpretation</p>",
+    socials: {
+      website: "https://linktr.ee/intransitivelie",
+      fedi: "https://beige.party/@intransitivelie",
+      bsky: "https://bsky.app/profile/intransitivelie.bsky.social",
+      threads: "https://www.threads.net/@intransitivelie",
+      insta: "https://www.instagram.com/intransitivelie",
+    },
+  },
+  {
     name: "JennyFluff",
     imgSrc:
       "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/JennyFluff.jpg?v=1723816678281",
@@ -189,6 +235,19 @@ let artists = [
     },
   },
   {
+    name: "laen",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/laen.jpg?v=1724944053101",
+    imgAlt:
+      "a cute green kodama kami sculpture sitting on a grey pebble-dashed stone wall. the kodama has sweet little arms, one of which is raised to its mouth, and it has a gentle, innocent face. behind it are some out-of-focus green leaves.",
+    blurb:
+      "<p>a cute raku ceramic sculpture of some kind, probably in trans or rainbow pride-flag colours. if the glaze agrees!</p>",
+    socials: {
+      website: "https://www.driftingspirits.art",
+      fedi: "https://sunny.garden/@moonrabbit",
+    },
+  },
+  {
     name: "lee",
     imgSrc:
       "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/lee.jpg?v=1723513034417",
@@ -214,6 +273,18 @@ let artists = [
     },
   },
   {
+    name: "Lili",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Lili.jpg?v=1724507646494",
+    imgAlt:
+      "paper cut showing person with a mohawk sprawled sideways in a wheelie chair",
+    blurb:
+      "<p>Ink sketch of a mashup of gods from two different pantheons - Athena/Minerva the Greek/Roman goddess of wisdom, olives, battle strategy and Guan Yu (關羽) a deified military general known as a loyal protector with a legendary beard. In my imagination they are a harmoniously multifaceted trans god of strategy and protection with awesome armor.</p>",
+    socials: {
+      insta: "https://www.instagram.com/other_hsu_studios/",
+    },
+  },
+  {
     name: "mari",
     imgSrc:
       "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/mari.jpg?v=1723517595555",
@@ -223,6 +294,19 @@ let artists = [
       "<p>some sort of fun, hopeful, nature-inspired collage piece(s) - most likely postcard-size.</p>",
     socials: {
       fedi: "https://spanner.works/@bouncinglime",
+    },
+  },
+  {
+    name: "Molly Litherland",
+    imgSrc:
+      "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/Molly-Litherland.jpg?v=1724963650256",
+    imgAlt:
+      "A photograph of a portion of a watercolor flower painting. Three soft pastel pencils are resting on the painting in the pink, blue, and white colors of the trans flag.",
+    blurb:
+      "<p>I'm working on a piece featuring a caterpillar in the colors of the trans flag. It is climbing a branch surrounding in blooms in the colors of the LGBTQIA+ movement. I do a lot of nature are in a realistic style, and this will follow suit. The complete work will be 9x12 inches on high quality paper using soft pastels. I will use a protective spray to prevent the pastels from smudging, but care should be taken and the art should be displayed behind glass if it all possible. I would be willing to ship it framed if more than the minimum bid is reached.</p>",
+    socials: {
+      website: "https://art.mlitherland.com",
+      fedi: "https://tech.lgbt/@MollyBeth",
     },
   },
   {
@@ -357,6 +441,13 @@ let artists = [
   },
 ];
 
+function openCorrespondingDetail(event) {
+  let img = event.target;
+  let details = img.nextElementSibling;
+  if (details.open) details.removeAttribute("open");
+  else details.setAttribute("open", true);
+}
+
 function makeSocial(socialType, socialLink) {
   let iconHTML;
   switch (socialType) {
@@ -394,13 +485,6 @@ function makeSocial(socialType, socialLink) {
   return social;
 }
 
-if (document.getElementById("test-social-grid")) {
-  let socialDiv = document.getElementById("test-social-grid");
-  for (const key in artists[0].socials) {
-    socialDiv.appendChild(makeSocial(key, artists[0].socials[key]));
-  }
-}
-
 function makeArtist({ name, imgSrc, imgAlt, blurb, socials }) {
   let artist = document.createElement("div");
   artist.className = "artist";
@@ -414,6 +498,7 @@ function makeArtist({ name, imgSrc, imgAlt, blurb, socials }) {
       "https://cdn.glitch.global/4c6d23ef-8570-4ac4-ade9-a8daff6f3f9a/no-image.jpg?v=1723815950068";
     img.alt = "a 'missing image' icon";
   }
+  img.addEventListener("click", openCorrespondingDetail);
   artist.appendChild(img);
 
   let details = document.createElement("details");
